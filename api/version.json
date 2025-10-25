@@ -1,0 +1,10 @@
+{
+  "latest_version": "1.9",
+  "download_url": "https://github.com/kalirajan1129/institute-hr-updates/releases/download/v1.9/institute-hr-dashboard.zip",
+  "details_url": "https://github.com/kalirajan1129/institute-hr-updates",
+  "tested": "6.3",
+  "requires_php": "7.4",
+  "last_updated": "2024-01-15",
+  "changelog": "## What's New in Version 1.9\n- Fixed timezone issues for Mumbai/Chennai\n- Improved batch management system\n- Enhanced video conferencing features\n- Added automatic progress tracking\n- Better error handling and logging",
+  "automatic": true
+}
