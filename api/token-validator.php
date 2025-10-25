@@ -22,7 +22,7 @@ class TokenValidator {
         // In production, load from database or secure config file
         $this->valid_tokens = [
             'TOKEN_CLIENT_1' => [
-                'domains' => ['placemen.unaux.com', 'www.placemen.unaux.com'],
+                'domains' => ['placemen.unaux.com', 'https://placemen.unaux.com/'],
                 'active' => true,
                 'expires' => '2026-12-31',
                 'rate_limit' => 1000 // requests per hour
@@ -152,4 +152,5 @@ class TokenValidator {
 }
 
 $validator = new TokenValidator();
+
 $validator->handle_request();
